@@ -9,6 +9,9 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 }
+@media only screen and (max-width: 768px) {
+	.term-box { width:100%; }
+}
 a:link, a:visited {
 	color:#5f5;
 	text-decoration: none;

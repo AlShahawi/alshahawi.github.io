@@ -1,3 +1,24 @@
 body {
 	background-color: #333;
+	color:#5f5;
+	font-family: "Courier New Lucida Console", Monospace;
+	font-size: 1em;
+}
+.term-box {
+	width:50%;
+	margin-right: auto;
+	margin-left: auto;
+}
+a:link, a:visited {
+	color:#5f5;
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+p {
+	margin: 10px 0;
+}
+p.term::before {
+	content:'$ ';
 }
